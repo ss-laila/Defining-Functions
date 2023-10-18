@@ -46,4 +46,11 @@ def right():
     Right_Motor_speed = -.5 # Makes left motor roll backwards
     Right_Motor.throttle = Right_Motor_speed
 
+def stop():
+    Left_Motor_speed = 0 # Makes left motor roll foward
+    Left_Motor.throttle = Left_Motor_speed
+    Right_Motor_speed = 0 # Makes left motor roll backwards
+    Right_Motor.throttle = Right_Motor_speed
+
+
 while True:
